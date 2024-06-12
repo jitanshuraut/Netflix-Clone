@@ -1,0 +1,22 @@
+.center_box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  /* background-color: white; */
+}
+
+.spin_inner{
+    display: flex;
+    justify-content: center;
+}
+#Logo{
+    width: 80%;
+    object-fit: contain;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+

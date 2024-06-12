@@ -1,0 +1,15 @@
+.list{
+    display: flex;
+    
+}
+.list_box{
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    margin-right: 20px;
+    transition: 450ms;
+    
+}
+.list_box:hover{
+    transform: scale(1.09);
+}

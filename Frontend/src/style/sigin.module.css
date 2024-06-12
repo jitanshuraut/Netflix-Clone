@@ -1,0 +1,88 @@
+.main{
+    width: 100%;
+  
+    object-fit: contain;
+    padding: 90px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 300px;
+    cursor: pointer;
+    margin: auto;
+}
+.img_outer{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+}
+.sigin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    padding: 20px;
+}
+.icon{
+    font-size: 30px;
+}
+
+.main_login_cont{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+  justify-content: center;
+}
+.cont_with_google:hover{
+    background-color: white;
+    color: black;
+}
+.header_sl{
+    text-align: left;
+}
+.cont_with_google{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google_text{
+    font-weight: 500;
+    padding: 5px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.go_png{
+    width: 50px;
+    object-fit: contain;
+    border-radius: 25px;
+    margin: 10px;
+}
+#input_email{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#input_password{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}

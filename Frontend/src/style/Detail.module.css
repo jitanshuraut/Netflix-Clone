@@ -1,0 +1,98 @@
+#Yt_video{
+    margin: auto;
+    margin-top: 30px;
+}
+
+.Movie_Name{
+    color: rgb(255, 0, 0);
+    text-align: start;
+    font-size: 50px;
+    cursor: auto;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 70%;
+    margin-top: 20px;
+
+}
+
+.overview{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid red;
+    /* border-bottom: 5px; */
+    text-align: start;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.overview_cont{
+    color: white;
+    text-align: start;
+    font-size: 15px;
+}
+
+.rate{
+    text-align: center;
+    /* background-color: rgb(225, 225, 59); */
+    
+    /* width: 20%; */
+
+  /* padding: 5px; */
+    color: yellow;
+    /* border-radius: 10px; */
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.genre{
+    color: white;
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.outter_box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Img{
+    width: 25%;
+    object-fit: contain;
+    
+}
+.Meta_details{
+    color: white;
+    text-align: start;
+}
+
+.cast{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.casthead{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid red;
+    /* border-bottom: 5px; */
+    text-align: start;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 10%;
+}

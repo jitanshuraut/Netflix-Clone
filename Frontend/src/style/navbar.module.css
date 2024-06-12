@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    z-index: 10;
+  
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(255, 255, 255);
+
+}
+
+ul{
+    list-style: none;
+    align-items: center;
+}
+.extside:hover{
+background-color: black;
+}
+.side{
+    color: white;
+}
+.side:hover{
+    color: red;
+    background-color: black;
+}
+h1{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  
+    cursor: pointer;
+}
+h1:hover{
+    transition: 0.5s;
+    
+}
+.img{
+    width: 100px;
+    cursor: pointer;
+}
+.icon{
+    margin-right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.icon:hover{
+    transition: 0.5s;
+   color: red;
+   box-decoration-break: slice;
+  
+}
+.ext{
+    width: 100%;
+    background-color: red;
+    color: red;
+    font-size: 1px;
+}

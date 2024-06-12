@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  color: white;
+  margin: auto;
+
+  padding: 40px;
+}
+.cut {
+  color: white;
+  margin: auto;
+  cursor: pointer;
+}
+.watch {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 40%;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.watch:hover {
+  transition: 0.5s;
+  background-color: red;
+  color: white;
+}
+.fade {
+  height: 4.3rem;
+  position: relative;
+  top: -100px;
+  z-index: 1;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(0, 0, 0, 0.61),
+    rgb(0, 0, 0)
+  );
+}
+.ext_img {
+  display: flex;
+  flex-direction: column;
+}
+.ext {
+  width: 50%;
+}
+.content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  font-size: 30px;
+  border: none;
+  text-align: center;
+}
+
+.img {
+  width: 60%;
+  margin-left: auto;
+}
+
+.img_in {
+  width: 500px;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  width: 80%;
+}
+
+.star {
+  padding-right: 5px;
+}
+
+.rate {
+  text-align: center;
+  background-color: rgb(225, 225, 59);
+
+  width: 30%;
+
+  padding: 5px;
+  color: black;
+  border-radius: 10px;
+}
+.list {
+  margin: 20px;
+  display: flex;
+  padding: 20px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.youtube {
+  display: flex;
+  justify-content: center;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+.list_box {
+  width: 100%;
+  object-fit: contain;
+  max-height: 200px;
+  margin-right: 20px;
+  transition: 450ms;
+}
+.list_box:hover {
+  transform: scale(1.09);
+}
+.movie_head {
+  color: white;
+  font-size: 30px;
+  text-align: start;
+  padding-left: 20px;
+}
+
+.rateing {
+  background-color: rgb(225, 225, 59);
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: center;
+  margin: auto;
+  color: black;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .head {
+    font-size: 10px;
+    text-align: center;
+  }
+}

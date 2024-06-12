@@ -1,0 +1,30 @@
+.main {
+  display: "flex";
+  justify-content: "space-between";
+  flex-direction: "column";
+}
+
+.upper_box {
+  display: "flex";
+  justify-content: "space-between";
+  flex-direction: row;
+  align-items: "center";
+  padding-left: "20px";
+  padding-right: "20px";
+  margin-left: "20px";
+  margin-top: "20px";
+  margin-right: "20px";
+}
+.movie_head {
+  color: white;
+  font-size: 30px;
+  /* text-aligen: start; */
+  /* text-align: center; */
+  /* padding-left: 20px; */
+  /* margin: auto; */
+}
+
+.arrow {
+  cursor: "pointer";
+  margin-left: "5px";
+}
